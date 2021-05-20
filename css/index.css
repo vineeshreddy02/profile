@@ -1,0 +1,175 @@
+body{
+  margin: 0px ;
+  text-align: center;
+  font-family: 'Balsamiq Sans', cursive;
+  color: #BBE1FA;
+}
+.middle-container{
+  background-image: linear-gradient(to bottom, #010733, #bbe1fa );
+}
+h1{
+  margin-top: 0px;
+  font-family: 'Pacifico', cursive;
+  font-weight: lighter;
+  font-size: 50px;
+}
+.mini-bio{
+  font-size: 20px;
+}
+
+.top{
+  color: #bbe1fa;
+  position: relative;
+  padding-top: 250px;
+  padding-bottom: 0px;
+  background-color: #010733;
+}
+
+.topcloud{
+  position: absolute;
+  right: 150px;
+  top: 100px;
+}
+.bird1{
+  position: absolute;
+  right: 450px;
+  top: 100px;
+}
+.bird3{
+  position: absolute;
+  left: 150px;
+  top: 300px;
+}
+.bottomcloud{
+  position: absolute;
+  left: 200px;
+  top: 0px;
+}
+h2{
+  color: #010733;
+  font-size: 40px;
+}
+h3{
+  color: #233e8b;
+  font-size: 25px;
+}
+.profile{
+  padding-bottom: 20px;
+  line-height: 1.5;
+}
+hr{
+  border: dotted #BBE1FA 5px;
+  border-bottom: none;
+  width: 10%;
+  margin: 30px auto 30px auto;
+}
+.skills{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.skill-row{
+  width: 60%;
+  margin:40px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.skills-image1{
+  float: left;
+  margin-right: 40px;
+}
+.skills-image2{
+  width: 190px;
+  height: 190px;
+  float: right;
+  margin-left: 40px;
+}
+.contact-me{
+  color: #BBE1FA;
+  padding-top: 20px;
+}
+.getintouch{
+  color: #f7f3e9;
+}
+
+.footer{
+  margin: 0px;
+  background-color: #010733;
+}
+
+.footermain{
+  background-color: #bbe1fa;
+  color: #010733;
+  margin-bottom: 0px;
+  padding: 5px;
+}
+
+.btn {
+  background: #0068ad;
+  background-image: -webkit-linear-gradient(top, #0068ad, #a9d8f5);
+  background-image: -moz-linear-gradient(top, #0068ad, #a9d8f5);
+  background-image: -ms-linear-gradient(top, #0068ad, #a9d8f5);
+  background-image: -o-linear-gradient(top, #0068ad, #a9d8f5);
+  background-image: linear-gradient(to bottom, #0068ad, #a9d8f5);
+  -webkit-border-radius: 15;
+  -moz-border-radius: 15;
+  border-radius: 15px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #f02d2d;
+  background-image: -webkit-linear-gradient(top, #f02d2d, #ed9c9c);
+  background-image: -moz-linear-gradient(top, #f02d2d, #ed9c9c);
+  background-image: -ms-linear-gradient(top, #f02d2d, #ed9c9c);
+  background-image: -o-linear-gradient(top, #f02d2d, #ed9c9c);
+  background-image: linear-gradient(to bottom, #f02d2d, #ed9c9c);
+  text-decoration: none;
+}
+.bottom-container{
+  padding-bottom: 10px;
+  margin-left: 540px;
+}
+
+.bottom-container li{
+  list-style: none;
+  float: left;
+  display: block;
+}
+.bottom-container a {
+	display: block;
+	height: 30px;
+	width: 30px;
+	background-image: url(../images/sprites.png);
+	background-repeat: no-repeat;
+  text-indent: -9999px;
+  margin-right: 20px;
+  transition-property: all;
+	transition-duration: 0.5s;
+}
+
+.facebook a:hover {
+	background-position: -30px 0;
+}
+.twitter a{
+  background-position: -60px 0;
+}
+.twitter a:hover {
+	background-position: -90px 0;
+}
+.instagram a{
+  background-position: -120px 0;
+}
+.instagram a:hover {
+	background-position: -150px 0;
+}
+.linkedin a{
+  background-position: -180px 0;
+}
+.linkedin a:hover {
+	background-position: -210px 0;
+}
